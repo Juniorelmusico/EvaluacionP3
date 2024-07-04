@@ -8,7 +8,7 @@ namespace EvaluacionP3.Models
 {
     public class Pais
     {
-        public PaisName { get; set; }
+        public PaisName Name { get; set; }
         public string Region { get; set; }
         public string Subregion { get; set; }
         public string Status { get; set; }
